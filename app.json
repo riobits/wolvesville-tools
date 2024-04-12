@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wolvesville-seer-toolkit",
-    "slug": "wolvesville-seer-toolkit",
+    "name": "Wolvesville Tools",
+    "slug": "wolvesville-tools",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.riobits.wolvesvilletools"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "44e024fb-71ae-463e-812d-42ad53f6519f"
+      }
     }
   }
 }
